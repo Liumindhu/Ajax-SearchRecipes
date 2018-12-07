@@ -1,0 +1,141 @@
+/* public */
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+input {
+    outline: none;
+    list-style: none;
+}
+.clearfix:before,.clearfix:after {
+    content:'';
+    display: block;
+}
+.clearfix:after {
+    clear: both;
+}
+.clearfix {
+    *zoom:1;
+}
+/*container*/
+.container {
+    width: 800px;
+    /* height: 3000px; */
+    background-color: #fff;
+    text-align: center;
+    margin: 10px auto;
+}
+/*title*/
+.title {
+    width: 800px;
+    height: 150px;
+    background-color:#f9ce91;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding:20px 0 10px 0;
+    color: #f3733a;
+}
+.title input {
+    margin-top: 10px;
+    width: 400px;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+/* info 自动高度*/
+#info {
+    margin-top: 20px;
+    width: 800px;
+    text-align: left;
+}
+.p1 {
+    font-size: 20px;
+    color: #f3a63a;
+    margin-bottom: 5px;
+}
+.p1 span {
+    display: inline-block;
+    height: 40px;
+    width: 60px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #f3a63a;
+    color: #fff;
+    margin-right: 5px;
+}
+img {
+    float: right;
+    margin-right: 20px;
+    margin-top: -40px;
+    border:1px solid #000;
+    border-radius: 30%;
+}
+.p2 {
+    font-size: 16px;
+    color: #000;
+    margin-bottom: 5px;
+}
+.p2 span {
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    background-color: #fff;
+    color: #000;
+    margin-right: 5px;
+}
+.baseTxt li p{
+    margin-bottom: 5px;
+}
+.baseTxt li span {
+    font-size: 16px;
+    font-weight: 600;
+    text-align:left;
+    color: #000;
+    margin-right: 5px;
+}
+.material {
+    margin-bottom: 5px;
+}
+.process {
+    
+}
+.process li {
+    width: 600px;
+    height: 180px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+.process li p {
+    width: 300px;
+    float: left;
+}
+.process li img {
+    width: 201px;
+    height: 152px;
+    margin-top: 0px;
+    float: right;
+    border:1px solid #000;
+    border-radius: 0;
+}
+/*footer*/
+.footer {
+    width: 800px;
+    height: 50px;
+    line-height: 50px;
+    background-color:#f9ce91;
+    border-radius: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+
